@@ -1,1 +1,22 @@
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    const content = document.getElementById('content');
 
+    // Check if the sidebar is currently hidden or visible
+    if (sidebar.style.left === '-250px' || sidebar.style.left === '') {
+        // Sidebar is hidden, so slide it out
+        sidebar.style.left = '0';
+        content.style.marginLeft = '250px'; // Shift content to the right
+    } else {
+        // Sidebar is visible, so slide it back in
+        sidebar.style.left = '-250px';
+        content.style.marginLeft = '0'; // Reset content margin
+    }
+}
+
+// Function to navigate to different pages (replace with actual navigation)
+function navigateTo(page) {
+    // The page argument can be the path to the page you want to navigate to
+    // For example, if 'page' is 'cloth.html', it will navigate to that page.
+    window.location.href = page;
+}
