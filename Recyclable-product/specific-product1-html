@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabric Recycling</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <button class="back-button" onclick="goBack()">&#8592;</button>
+
+        <div class="product-info">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg" alt="Cloth Image" class="product-image">
+
+            <h1>FABRIC/CLOTHES/SHOES</h1>
+
+            <p class="description">
+                Zippers and buttons are removed and the fabrics are cut into smaller pieces. The shredded fabrics are granulated and shaped into pellets. These are then melted and used to create fibres which can be used to make new polyester fabrics! 
+                The garments that can't be resold are sorted by color and material. 
+            </p>
+
+            <h2>OBJECT TYPES:</h2>
+            <ul class="object-types">
+                <li>FIBER</li>
+                <li>YARN</li>
+                <li>FABRIC</li>
+                <li>COARSE YARN</li>
+            </ul>
+        </div>
+
+        <button class="back-to-products" onclick="goBack()">BACK TO PRODUCTS</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
