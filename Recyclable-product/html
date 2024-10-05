@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycle Me!</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div class="header">
+    <span class="menu-icon" onclick="toggleSidebar()">&#9776; Recycle Me!</span>
+    <div class="profile-options">
+        <button>PROFILE</button>
+        <button>LOGOUT</button>
+    </div>
+</div>
+<div id="sidebar" class="sidebar">
+    <a href="#">Home</a>
+    <a href="#">Recycling Details</a>
+    <a href="#">Scan To Recycle</a>
+    <a href="#">Leaderboard</a>
+    <a href="#">Q&A</a>
+</div>
+<div id="content" class="content">
+    <h2>RECYCLABLE PRODUCT:</h2>
+    <div class="recyclable-grid">
+        <div class="recyclable-item" onclick="navigateTo('plastic-bottles')">
+            <img src="https://5.imimg.com/data5/SW/WU/MY-4667047/packaged-1-liter-bottel.jpg" alt="Plastic Bottles">
+            <p>PLASTIC BOTTLES</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('///C:/Users/nithu/OneDrive/Desktop/mini-project%20cloth/index.html')">
+            <img src="https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886008_640.png" alt="Cloth">
+            <p>CLOTH</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('rust-iron')">
+            <img src="https://tiimg.tistatic.com/fp/1/008/102/u-shaped-opening-rust-proof-stainless-steel-double-open-end-spanner-208.jpg" alt="Rust Iron">
+            <p>RUST IRON</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('glass-jar')">
+            <img src="https://www.shutterstock.com/image-photo/close-empty-glass-jar-food-260nw-1899863647.jpg" alt="Glass Jar">
+            <p>GLASS JAR</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('aluminium-cans')">
+            <img src="https://i.pinimg.com/474x/e9/f5/27/e9f527e7b8fbb3cde2198697bb0fbe11.jpg" alt="Aluminium Cans">
+            <p>ALUMINIUM CANS</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('cardboards')">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/5/305163776/BG/EJ/FI/11882109/cardboard-paper.jpg" alt="Cardboards">
+            <p>CARDBOARDS</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('plastic-bucket')">
+            <img src="https://png.pngtree.com/png-vector/20190925/ourmid/pngtree-plastic-bucket-vector-white-claen-empty-blank-classic-jar-with-handle-png-image_1734406.jpg" alt="Plastic Bucket">
+            <p>PLASTIC BUCKET</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('backpacks')">
+            <img src="https://w7.pngwing.com/pngs/75/195/png-transparent-backpack-messenger-bags-leather-canvas-backpack-brown-messenger-bag-vintage-clothing-thumbnail.png" alt="Backpacks">
+            <p>BACKPACKS</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('newspaper')">
+            <img src="https://st.depositphotos.com/2063883/3624/i/950/depositphotos_36242959-stock-photo-newspaper.jpg" alt="Newspaper">
+            <p>NEWSPAPER</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('cartons')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Several_Cartons.jpg/800px-Several_Cartons.jpg" alt="Cartons">
+            <p>CARTONS</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('polythene-bags')">
+            <img src="https://thumbs.dreamstime.com/b/gray-plastic-bag-15281558.jpg" alt="Polythene Bags">
+            <p>POLYTHENE BAGS</p>
+        </div>
+        <div class="recyclable-item" onclick="navigateTo('detergent-bottles')">
+            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/detergent-bottle-cleaning-liquid-mdKWlB6-600.jpg" alt="Detergent Bottles">
+            <p>DETERGENT BOTTLES</p>
+        </div>
+    </div>
+    <button class="scan-button">Scan</button>
+</div>
+
+<script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
 
