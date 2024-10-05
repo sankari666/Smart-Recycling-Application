@@ -1,1 +1,104 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #4B1B9B;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu icon */
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+/* Profile and Logout */
+.profile-options {
+    margin-right: 10px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: -250px; /* Sidebar starts hidden */
+    top: 0;
+    background-color: #333;
+    color: white;
+    overflow-x: hidden;
+    transition: left 0.3s ease; /* Smooth transition for sidebar sliding */
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/* Content area */
+.content {
+    padding: 20px;
+    transition: margin-left 0.3s ease; /* Smooth transition for content shifting */
+}
+/* Grid of recyclable products */
+.recyclable-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+/* Individual button styling */
+.recyclable-item {
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.recyclable-item:hover {
+    border-color: #4B1B9B;
+}
+
+.recyclable-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling for scan button */
+.scan-button {
+    margin-top: 20px;
+    background-color: #4B1B9B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scan-button:hover {
+    background-color: #3e1177;
+}
 
